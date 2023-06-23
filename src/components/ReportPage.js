@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Box, Typography } from '@mui/material';
 
-const DETAILED_TRANSACTION_API = 'http://3000/api/detailed-transaction';
-const TRANSACTION_SUMMARY_API = 'http://3000/api/transaction-summary';
+const DETAILED_TRANSACTION_API = 'http://148.251.225.118:3200/api/detailed-transaction';
+const TRANSACTION_SUMMARY_API = 'http://148.251.225.118:3200/api/transaction-summary';
 
 function ReportPage() {
   const [transactionData, setTransactionData] = useState([]);

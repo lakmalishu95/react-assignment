@@ -3,7 +3,7 @@ import axios from 'axios';
 import { TextField, Button } from '@mui/material';
 
 
-const API_ENDPOINT = 'http://3000/api/login';
+const API_ENDPOINT = 'http://148.251.225.118:3200/api/login';
 
 function LoginPage({ handleLogin }) {
   const [username, setUsername] = useState('');
