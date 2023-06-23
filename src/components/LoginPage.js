@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { TextField, Button } from '@mui/material';
 
+
 const API_ENDPOINT = 'http://3000/api/login';
 
 function LoginPage({ handleLogin }) {
@@ -46,7 +47,7 @@ function LoginPage({ handleLogin }) {
             value={username}
             onChange={handleUsernameChange}
           />
-        </div>
+        </div><br></br>
         <div>
           <TextField
             type="password"
@@ -56,7 +57,7 @@ function LoginPage({ handleLogin }) {
             value={password}
             onChange={handlePasswordChange}
           />
-        </div>
+        </div><br></br>
         <Button type="submit" variant="contained" fullWidth>
           Log in
         </Button>
